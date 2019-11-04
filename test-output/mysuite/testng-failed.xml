@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" name="Failed suite [mysuite]">
+  <test thread-count="6" name="Test validate IEcom.atmecs.sample.testscripts.TestVerifyPhpTravels(failed)">
+    <parameter name="browser" value="MY,IE"/>
+    <classes>
+      <class name="com.atmecs.sample.testscripts.TestVerifyPhpTravels">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="verifyPhpTravels"/>
+          <include name="endDriver"/>
+          <include name="endReport"/>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- com.atmecs.sample.testscripts.TestVerifyPhpTravels -->
+    </classes>
+  </test> <!-- Test validate IEcom.atmecs.sample.testscripts.TestVerifyPhpTravels(failed) -->
+  <test thread-count="6" name="Test validate IEcom.atmecs.sample.testscripts.Home(failed)">
+    <parameter name="browser" value="MY,IE"/>
+    <classes>
+      <class name="com.atmecs.sample.testscripts.Home">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="endDriver"/>
+          <include name="verifytable"/>
+          <include name="endReport"/>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- com.atmecs.sample.testscripts.Home -->
+    </classes>
+  </test> <!-- Test validate IEcom.atmecs.sample.testscripts.Home(failed) -->
+</suite> <!-- Failed suite [mysuite] -->

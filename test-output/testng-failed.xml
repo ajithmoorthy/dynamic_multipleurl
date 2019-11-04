@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="tests" name="Failed suite [suite]">
+  <test thread-count="10" parallel="tests" name="Test validateCHROMEcom.atmecs.sample.testscripts.TestVerifyWebtable(failed)">
+    <parameter name="browser" value="MY,CHROME"/>
+    <parameter name="url" value="https://www.toolsqa.com/automation-practice-table/"/>
+    <classes>
+      <class name="com.atmecs.sample.testscripts.TestVerifyWebtable">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="endDriver"/>
+          <include name="verifytable"/>
+          <include name="endReport"/>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- com.atmecs.sample.testscripts.TestVerifyWebtable -->
+    </classes>
+  </test> <!-- Test validateCHROMEcom.atmecs.sample.testscripts.TestVerifyWebtable(failed) -->
+  <test thread-count="10" parallel="tests" name="Test validateIEcom.atmecs.sample.testscripts.TestVerifyWebtable(failed)">
+    <parameter name="browser" value="MY,IE"/>
+    <parameter name="url" value="https://www.toolsqa.com/automation-practice-table/"/>
+    <classes>
+      <class name="com.atmecs.sample.testscripts.TestVerifyWebtable">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="endDriver"/>
+          <include name="verifytable"/>
+          <include name="endReport"/>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- com.atmecs.sample.testscripts.TestVerifyWebtable -->
+    </classes>
+  </test> <!-- Test validateIEcom.atmecs.sample.testscripts.TestVerifyWebtable(failed) -->
+</suite> <!-- Failed suite [suite] -->
